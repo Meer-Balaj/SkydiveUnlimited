@@ -1,1 +1,5 @@
-Game Ideas
+<<<<<<< Updated upstream
+=======
+pull req2
+bruh
+>>>>>>> Stashed changes
