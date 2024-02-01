@@ -19,7 +19,7 @@ public class Controls: MonoBehaviour, IPointerMoveHandler
 
     private void FixedUpdate()
     {
-        _rigidbody.velocity = new Vector3(_joystick.Horizontal * _moveSpeed, _rigidbody.velocity.y, _joystick.Vertical * _moveSpeed);
+        _rigidbody.velocity = new Vector3(_joystick.Horizontal * _moveSpeed, _rigidbody.velocity.y, _joystick.Vertical * _moveSpeed); //Stop y movement in rigidbody constraints
 
         /*if (_joystick.Horizontal != 0 || _joystick.Vertical != 0)
         {
